@@ -1,4 +1,3 @@
-variable "envs" {}
 variable "region" {}
 
 // リソース・マネージャに配置することで自動補完される

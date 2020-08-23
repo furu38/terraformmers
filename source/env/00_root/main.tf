@@ -1,7 +1,14 @@
 variable "cmps" {}
+variable "grps" {}
 
 module "compartment" {
 	source = "../../modules/01_compartment"
-	compartment1_maps = var.cmps
+	compartment_map = var.cmps
 	tenancy_default = var.tenancy_ocid
 }
+
+module "group" {
+	source = "../../modules/02_group"
+	group_map = var.grps
+}
+

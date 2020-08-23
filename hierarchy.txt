@@ -1,0 +1,19 @@
+.
+├── env
+│   ├── 00_root
+│   │   ├── compartment.auto.tfvars
+│   │   ├── env.tf
+│   │   ├── group.auto.tfvars
+│   │   └── main.tf
+│   └── 01_Akankyo
+│       ├── compartment.auto.tfvars
+│       ├── env.tf
+│       ├── group.auto.tfvars
+│       └── main.tf
+└── modules
+    ├── 01_compartment
+    │   ├── env.tf
+    │   └── main.tf
+    └── 02_group
+        ├── env.tf
+        └── main.tf
